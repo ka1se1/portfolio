@@ -130,35 +130,35 @@ export default function App() {
   const projects = [
     {
       no: "01",
-      title: "AR Card",
-      type: "WebXR / Three.js",
-      desc: "名刺をかざすと3Dで自己紹介が立ち上がる。WebXR + マーカートラッキング実装。",
-      tag: "WEB",
+      title: "HELP.AR",
+      type: "Unity / AR Foundation",
+      desc: "身近な機械の操作を直感的に支援するモバイルARアプリ。物体認識とUXの両立をテーマに開発中。",
+      tag: "UNITY",
       icon: Sparkles,
     },
     {
       no: "02",
-      title: "Recipe AR",
-      type: "Unity / AR Foundation",
-      desc: "ARグラス向け料理アシスタント。ハンズフリーで手順表示するUXを設計。",
-      tag: "UNITY",
+      title: "3D Portfolio",
+      type: "React / Three.js",
+      desc: "このサイト。XRエンジニアとしての玄関として、サイト自体を3Dインタラクティブに設計。",
+      tag: "WEB",
       icon: Layers,
     },
     {
       no: "03",
-      title: "Furniture Try",
-      type: "Unity / ARKit",
-      desc: "実物大の家具を部屋に配置できるアプリ。スケール検証と影の表現に注力。",
+      title: "Coming Soon",
+      type: "Unity / WebXR",
+      desc: "次の作品を企画中。AR/XR技術の発展的な応用に挑戦予定。",
       tag: "UNITY",
       icon: Box,
     },
   ];
 
   const skills = {
-    "XR / 3D": ["Three.js", "WebXR", "Unity", "AR Foundation", "Blender"],
-    Languages: ["C#", "Python", "Java", "C", "TypeScript"],
-    Web: ["React", "Next.js", "Tailwind"],
-    Tools: ["Git", "Figma", "Xcode"],
+    "XR / 3D": ["Three.js", "Unity(学習中)", "AR Foundation(学習中)"],
+    Languages: ["Python", "Java", "C", "JavaScript"],
+    Web: ["React", "Tailwind CSS", "Vite"],
+    Tools: ["Git", "GitHub", "VS Code"],
   };
 
   return (
